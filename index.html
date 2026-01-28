@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yesim.app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="!#" class="header__logo">
+                    <img class="logo" src="./assets/icons/logo.svg" alt="Yesim Logo">
+                </a>
+                <nav class="header__nav">
+                    <ul class="nav__list">
+                        <li class="nav__list-item">
+                            <a href="!#" class="nav__list-link">eSIM</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="!#" class="nav__list-link">Virtual numbers</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="!#" class="nav__list-link">Compatible devices</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a href="!#" class="nav__list-link">More</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="settings__bar">
+                    <li class="settings__bar-item">
+                        <a href="#" class="settings__bar-search">
+                            <img src="./assets/icons/search.svg" alt="search">
+                        </a>
+                    </li>
+                    <li class="settings__bar-item">
+                        <button class="settings__bar-lang">
+                            <span>ENG</span>
+                            <svg width="12" height="12" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class=" Icon_main__igGXX" style="transform:rotate(undefineddeg)"><path d="M13.7148 5.71429L8.00056 11.4286L2.28627 5.71429" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </button>
+                        
+                    </li>
+                    <li class="settings__bar-item">
+                        <button class="settings__bar-currency">
+                            <span>EUR</span>
+                            <svg width="12" height="12" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class=" Icon_main__igGXX" style="transform:rotate(undefineddeg)"><path d="M13.7148 5.71429L8.00056 11.4286L2.28627 5.71429" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="settings__bar-item">
+                        <a id="themeToggle" href="#" class="settings__bar-lightmod">
+                             <img class="theme__icon" src="./assets/icons/light_mod.svg" alt="light_mod">
+                        </a>
+                    </li>
+                     <li class="settings__bar-item">
+                        <img src="./assets/icons/sale-ycoins.svg" alt="ycoins">
+                    </li>
+                    <li class="settings__bar-item">
+                        <button class="login">
+                            <img src="./assets/icons/login.svg" alt="login">
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="account">
+                    <ul class="account__items">
+                        <li class="account__item">
+                            <dl>
+                                <dt>
+                                    <img src="./assets/icons/account/user.svg" alt="user">
+                                </dt>
+                                <dd>Настройка аккаунта</dd>
+                            </dl>
+                        </li>
+                        <li class="account__item">
+                            <dl>
+                                <dt>
+                                    <img src="./assets/icons/account/numbers.svg" alt="user">
+                                </dt>
+                                <dd>Мои eSIM</dd>
+                            </dl>
+                        </li>
+                        <li class="account__item">
+                            <dl>
+                                <dt>
+                                    <img src="./assets/icons/account/esim.svg" alt="user">
+                                </dt>
+                                <dd>Активные номера</dd>
+                            </dl>
+                        </li>
+                        <li class="account__item">
+                            <dl>
+                                <dt>
+                                    <img src="./assets/icons/account/story.svg" alt="user">
+                                </dt>
+                                <dd>История покупок</dd>
+                            </dl>
+                        </li>
+                        <li class="account__item ">
+                            Выйти
+                        </li>
+                    </ul>
+                    
+                </div>
+                
+                <button class="header__burger" id="burgerBtn">
+                    <span class="header__burger-line"></span>
+                    <span class="header__burger-line"></span>
+                    <span class="header__burger-line"></span>
+                </button>
+            </div>
+        </div>
+        
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero__inner">
+                <div class="hero__main">
+                    <h1 class="hero__title">
+                        Generate income with Yesim Affiliate Program
+                    </h1>
+                    <p class="hero__subtitle">
+                        Earn profit from your audience and get 10% from every purchase with Yesim!
+                    </p>
+                    <button class="partner">Become a partner</button>
+                    <div class="hero__main-members-wrapper">
+                        <div class="hero__main-image-wrapper">
+                            <img src="./assets/images/hero_image.png" alt="members">
+                        </div>
+                        <p class="hero__main-text">1000+ affiliate members</p>
+                    </div>
+                </div>
+                <div class="hero__options">
+                    <p class="hero__options-item">
+                        Reliable payouts
+                    </p>
+                    <p class="hero__options-item">
+                        Personal manager
+                    </p>
+                    <p class="hero__options-item">
+                        Flexible earning terms
+                    </p>
+                    <p class="hero__options-item">
+                        Efficient dashboard
+                    </p>
+                    <p class="hero__options-item">
+                        Worldwide participation
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="program">
+        <div class="container">
+            <div class="program__inner">
+                <div class="program__info">
+                    <h2 class="program__title">
+                        What is the Yesim’s Affiliate Program?
+                    </h2>
+                    <div class="program__text">
+                        <p>Yesim Affiliate Program allows you to earn by inviting new users! Share your link with your audience, and earn a percentage of their purchases.</p>
+                        <p>The more people join through your recommendation, the higher your earnings will be. A seamless way to benefit from your audience with minimal effort.</p>
+                        <p>Join Yesim and start earning right now!</p>
+                    </div>
+                    <button class="partner">Become a partner</button>
+                </div>
+                <div class="program__image-wrapper">
+                    <img class="program__image" src="./assets/images/affilate_program.png" alt="Affilate Program">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="opportunity">
+        <div class="container">
+            <div class="opportunity__inner">
+                <h2 class="opportunity__title">
+                    Who is this the perfect opportunity for?
+                </h2>
+                <div class="opportunity__items">
+                    <div class="opportunity__item">
+                        <div class="opportunity__logo-wrapper">
+                            <img src="./assets/images/opportunity_travel.png" alt="" class="opportunity__logo">
+                        </div>
+                        <h3 class="opportunity__item-title">Travel oriented online businesses</h3>
+                        <p class="opportunity__item-text">Perfect for travel-oriented online businesses offering customers mobile access to travel solutions anytime</p>
+                    </div>
+                    <div class="opportunity__item">
+                        <div class="opportunity__logo-wrapper">
+                            <img src="./assets/images/opportunity_msuite.png" alt="" class="opportunity__logo">
+                        </div>
+                        <h3 class="opportunity__item-title">Travel and insurance agents</h3>
+                        <p class="opportunity__item-text">Ideal for travel and insurance agents looking to offer their clients seamless mobile access on the go</p>
+                    </div>
+                    <div class="opportunity__item">
+                        <div class="opportunity__logo-wrapper">
+                            <img src="./assets/images/opportunity_influencers.png" alt="" class="opportunity__logo">
+                        </div>
+                        <h3 class="opportunity__item-title">Influencers</h3>
+                        <p class="opportunity__item-text">Ideal for influencers with a following in travel or technology</p>
+                    </div>
+                    <div class="opportunity__item">
+                        <div class="opportunity__logo-wrapper">
+                            <img src="./assets/images/opportunity_content.png" alt="" class="opportunity__logo">
+                        </div>
+                        <h3 class="opportunity__item-title">Content makers</h3>
+                        <p class="opportunity__item-text">Perfect for creators who want to offer their followers seamless mobile access anytime, anywhere</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why-yesim">
+        <div class="container">
+            <div class="why-yesim__inner">
+                <div class="why-yesim__wrapper-img">
+                    <img src="/assets/images/esim.png" alt="eSIM">
+                </div>
+                <div class="why-yesim__info">
+                    <h3 class="why-yesim__subtitle">
+                        Why Yesim?
+                    </h3>
+                    <p class="why-yesim__text">
+                        Want a additional income with transparent conditions and fast payouts? Choose a platform trusted by millions. We create the best opportunities for your financial growth!
+                    </p>
+                    <ul class="why-yesim__items">
+                        <li class="why-yesim__item">
+                            <dl>
+                                <dt>
+                                    Instant payouts from €100 
+                                </dt>
+                                <dd>
+                                    Withdraw funds anytime
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="why-yesim__item">
+                            <dl>
+                                <dt>
+                                    €1,000,000+ 
+                                </dt>
+                                <dd>
+                                   Paid to partners
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="why-yesim__item">
+                            <dl>
+                                <dt>
+                                    Commissions from 10% 
+                                </dt>
+                                <dd>
+                                    With growth potential
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="why-yesim__item">
+                            <dl>
+                                <dt>
+                                    Thousands of euros
+                                </dt>
+                                <dd>
+                                   Earn as much as your audience allows
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                    <button class="partner">Become a partner</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="provide">
+        <div class="container">
+            <div class="provide__inner">
+                <h2 class="provide__title">
+                    What do we provide?
+                </h2>
+                <div class="provide__items">
+                    <div class="provide__item">
+                        <h3 class="provide__subtitle">
+                            Efficient dashboard
+                        </h3>
+                        <p class="provide__text">
+                            Our dashboard offers clear and accurate analytics in a simple, user-friendly format
+                        </p>
+                        <div class="provide__image-wrapper">
+                            <img src="/assets/images/provide_dash.png" alt="Efficient dashboard">
+                        </div>
+                    </div>
+                    <div class="provide__item">
+                        <h3 class="provide__subtitle">
+                            Personal manager
+                        </h3>
+                        <p class="provide__text">
+                            Our personal manager is always here to support you with insights, promo materials, and growth
+                        </p>
+                        <div class="provide__image-wrapper">
+                            <img src="/assets/images/provide_manager.png" alt="Personal manager">
+                        </div>
+                    </div>
+                    <div class="provide__item">
+                        <h3 class="provide__subtitle">
+                            Makerking assets
+                        </h3>
+                        <p class="provide__text">
+                            Ready-to-use resources for fast and effective promotion
+                        </p>
+                        <div class="provide__image-wrapper">
+                            <img src="/assets/images/provide_marketing.png" alt="Makerking assets">
+                        </div>
+                    </div>
+                    <div class="provide__item">
+                        <h3 class="provide__subtitle">
+                            Webview embedment
+                        </h3>
+                        <p class="provide__text">
+                            An easy way to embed our functionality into your app. (Upon request)
+                        </p>
+                        <div class="provide__image-wrapper">
+                            <img src="/assets/images/provide_webview.png" alt="Webview embedment">
+                        </div>
+                    </div>
+                    <div class="provide__item">
+                        <h3 class="provide__subtitle">
+                            Direct link for any destinations
+                        </h3>
+                        <p class="provide__text">
+                            Share a country-specific (destination specific) link to show your audience the most sweet deal
+                        </p>
+                        <div class="provide__image-wrapper">
+                            <img src="/assets/images/provide_destination.png" alt="destinations">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us">
+        <div class="container">
+            <div class="contact-us__inner">
+                <div class="contact-us__image-wrapper">
+                    <img src="assets/images/contact_us.png" alt="contact us">
+                </div>
+                <p class="contact-us__title">
+                    Have questions or need assistance?
+                </p>
+                <p class="contact-us__text">
+                    Reach out to our team, and we’ll be happy to help you start your journey with Yesim’s Affilliate Program
+                </p>
+                <div class="contact-us__buttons-box">
+                    <button class="contact">Contact us</button>
+                    <button class="partner">Become a partner</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq">
+        <div class="container">
+            <div class="faq__inner">
+                <h3 class="faq__title">FAQ</h3>
+                <div class="faq__items">
+                    <div class="faq__item">
+                        <button class="faq__item-question">
+                                What traffic sources and activites are not permitted?
+                                <i class="fas fa-chevron-up faq__icon">
+                                    <img src="./assets/icons/check_icons/arrow.svg" alt="fa-chevron-up">
+                                </i>
+                        </button>
+                        <div class="faq__item-answer">
+                            <p>
+                                answer answer answer answer answer 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq__item">
+                        <button class="faq__item-question">
+                                What are the important things to remember?
+                                <i class="fas fa-chevron-up faq__icon">
+                                <img src="./assets/icons/check_icons/arrow.svg" alt="fa-chevron-up">
+                                </i>
+                        </button>
+                            <div class="faq__item-answer">
+                            <p>
+                                answer answer answer answer answer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__top">
+                    <div class="footer__apps">
+                        <a href="#" class="footer__apps-icon">
+                            <img src="./assets/icons/logo_footer.svg" alt="footer logo">
+                        </a>
+                        <a href="#" class="footer__apps-icon">
+                            <img src="./assets/icons/istore.svg" alt="app store">
+                        </a>
+                        <a href="#" class="footer__apps-icon">
+                            <img src="./assets/icons/googleplay.svg" alt="google play">
+                        </a>
+                        <a href="#" class="footer__apps-icon">
+                            <img src="./assets/icons/Trust.svg" alt="trust">
+                        </a>
+                        <a href="#" class="footer__apps-icon">
+                            <img src="./assets/icons/Swiss_Made.svg" alt="Swiss made">
+                        </a>
+                    </div>
+                    <div class="footer__column">
+                        <p class="footer__column-title">About Yesim</p>
+                        <ul class="footer__column-items">
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">About us</a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">Contacts</a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">Virtual numbers</a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__column">
+                        <p class="footer__column-title">Popular Destinations</p>
+                        <ul class="footer__column-items">
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">International eSIM</a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">Italy</a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">United States</a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">United Arab Emirates</a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">Spain</a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">Turkey</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__column">
+                        <p class="footer__column-title">Help</p>
+                        <ul class="footer__column-items">
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">Help Center</a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">Compatible devices</a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">Support</a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">Payment details</a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">Refund policy</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__column">
+                        <p class="footer__column-title">For Partners</p>
+                        <ul class="footer__column-items">
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">Our partners</a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">For business</a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">Referral program</a>
+                            </li>
+                            <li class="footer__column-item">
+                                <a href="#" class="footer__column-link">Affiliate program</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="payment__service">
+                        <img src="./assets/icons/Affiliate Program/Payment method logo.svg" alt="visa">
+                        <img src="./assets/icons/Affiliate Program/Payment method logo-1.svg" alt="apple pay">
+                        <img src="./assets/icons/Affiliate Program/Payment method logo-2.svg" alt="google pay">
+                        <img src="./assets/icons/Affiliate Program/Payment method logo-3.svg" alt="Pay pal">
+                        <img src="./assets/icons/Affiliate Program/Payment method logo-4.svg" alt="binance pay">
+                        <img src="./assets/icons/Affiliate Program/Payment method logo-5.svg" alt="alphapo">
+                        <img src="./assets/icons/Affiliate Program/Payment method logo-6.svg" alt="alphapo">
+                    </div>
+                    <ul class="social__links">
+                        <li class="social__links-item">
+                            <a href="" class="social__links-link">
+                                <img src="./assets/icons/social_links/Socials.svg" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="social__links-item">
+                            <a href="" class="social__links-link">
+                                <img src="./assets/icons/social_links/Socials-1.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="social__links-item">
+                            <a href="" class="social__links-link">
+                                <img src="./assets/icons/social_links/Socials-2.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="social__links-item">
+                            <a href="" class="social__links-link">
+                                <img src="./assets/icons/social_links/Socials-3.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="social__links-item">
+                            <a href="" class="social__links-link">
+                                <img src="./assets/icons/social_links/Socials-4.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="social__links-item">
+                            <a href="" class="social__links-link">
+                                <img src="./assets/icons/social_links/Socials-5.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="social__links-item">
+                            <a href="" class="social__links-link">
+                                <img src="./assets/icons/social_links/Socials-6.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="footer__policy">
+                        <li class="footer__policy-item">
+                            <a href="https://yesim.app/privacy-policy/" class="fiooter__policy-link">Privacy policy</a>
+                        </li>
+                        <li class="footer__policy-item">
+                            <a href="https://yesim.app/terms-of-service/" class="fiooter__policy-link">Terms of Service</a>
+                        </li>
+                        <li class="footer__policy-item">
+                            <a href="https://yesim.app/cof/" class="fiooter__policy-link">COF Agreement</a>
+                        </li>
+                    </ul>
+
+                     <ul class="footer__copyright">
+                        <li class="footer__copyright-item">
+                            2019 – 2024 © Yesim
+                        </li>
+                        <li class="footer__copyright-item">
+                            Genesis Group AG; Chamerstrasse 172, CH-6300 Zug; REG NO: CHE-135.623.633
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
