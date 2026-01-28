@@ -181,7 +181,9 @@ a{
         &-lang,
         &-currency {
             @include font-inter(500, 12px, 1.3, 0px, Medium);
-            display: block;
+            display: flex;
+            align-items: center;
+            gap: 0 6px;
             border: none;
             outline: none;
             background-color: transparent;
@@ -214,7 +216,7 @@ a{
 
 .header__nav {
         margin-left: 56px;
-        margin-right: 132px;
+        margin-right: 102px;
     .nav__list-item {
         padding: 8px 12px;
         cursor: pointer;
